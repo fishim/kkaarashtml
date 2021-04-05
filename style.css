@@ -1,0 +1,81 @@
+body {
+    overflow-x: hidden;
+
+    color: #676767;
+    margin: 1.1rem 2.6rem 0 ;
+    /* font-family: 'Sorts Mill Goudy', serif; */
+    font-family: 'Playfair Display', serif;
+    font-size: 1.15vw;
+    background-image: url(img/background.jpg);
+    background-repeat: repeat-y;
+    background-size: 100% auto;
+}
+
+p {
+    margin: 0;
+    padding: 0.6vw 1.8vw 0 0;
+    line-height: 1.35vw;
+}
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.top {
+    margin-bottom: 0.62vw;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h1 {
+    font-weight: normal;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 2vw;
+}
+.logo {
+    align-items:center;
+    margin: 0;
+    display:flex;
+}
+.contact{
+    padding-left: 67.1vw;
+}
+.logoBrd {
+    cursor: default;
+    display: flex;
+    border: 2px solid #676767;
+    border-radius: 29px;
+    transition: background-color 0.5s linear;
+    transition: color 0.9s linear;
+}
+.logoBrd:hover {
+    background-color: #676767;
+    color:rgb(4, 4, 19);
+}
+.logoText {
+    margin: 0 10px 2px;
+}
+.logoContact {
+  display: none;
+  width: 2vw;
+  height: 2vw;
+  fill: #676767;
+}
+.language {
+    font-size: 1.6vw;
+}
