@@ -126,3 +126,18 @@ h1 {
     color: #676767;
     font-size: 1.15vw;
 }
+
+.brd {
+    border-bottom: 2px solid #676767;
+}
+.AboutMeText {
+    display: flex;
+    padding-bottom: 5px;
+}
+
+.bio {
+    /* max-width: 20.5vw;
+    height: auto; */
+    max-width: 50vw;
+    height: auto;
+}
