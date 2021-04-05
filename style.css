@@ -141,3 +141,23 @@ h1 {
     max-width: 50vw;
     height: auto;
 }
+.gallery {
+    margin: 0;
+    text-align: center;
+    border-bottom: 2px solid #676767;
+}
+.int {
+    transition: letter-spacing 0.5s linear;
+}
+.int:hover {
+    letter-spacing: 25px
+}
+.galleryBorder {
+    overflow-y: hidden;
+    display: flex;
+    margin: 5px -2.6rem;
+    padding-bottom: 10px;
+}
+.galleryBorder::-webkit-scrollbar {
+  display: none;
+}
