@@ -6,7 +6,7 @@ body {
     /* font-family: 'Sorts Mill Goudy', serif; */
     font-family: 'Playfair Display', serif;
     font-size: 1.15vw;
-    background-image: url(img/background.jpg);
+    background-image: url(images/background.jpg);
     background-repeat: repeat-y;
     background-size: 100% auto;
 }
@@ -78,4 +78,51 @@ h1 {
 }
 .language {
     font-size: 1.6vw;
+}
+.AboutMe {
+    display: flex;
+    margin-bottom: 0.62vw;;
+}
+.polaroid {
+    position: relative;
+    padding-right: 4.6vh;
+}
+.polImg {
+    position: relative;
+    border-radius: 0.78vw;
+    box-shadow: inset 0 0 20px 16px black;
+    max-height:  26vw;
+    height: 100%;
+    width: auto;
+    z-index: 2;
+}
+.photo {
+    position: absolute;
+    top:0.7vw;
+    left: 1.1vw;
+    max-height:  19.7vw;
+    height: 100%;
+    width: auto;
+    z-index: 1;
+}
+.instLogo {
+    margin-right: 0.2vw;
+    display: block;
+    fill:#676767;
+    height: 1vw;
+    width: 1vw;
+}
+.instLink {
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom:2.6vw;
+    left:1.4vw;
+    z-index: 3;
+    text-decoration: none;
+    display: flex;
+}
+.linkText {
+    color: #676767;
+    font-size: 1.15vw;
 }
